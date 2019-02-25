@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{DD21D325-8331-4932-9789-221C8F343010}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <LangVersion>7.2</LangVersion>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WindowsFormsApplication1.Properties\Resources.cs" />
+    <Compile Include="WindowsFormsApplication1.Properties\Settings.cs" />
+    <Compile Include="WindowsFormsApplication1\Afmagt.cs" />
+    <Compile Include="WindowsFormsApplication1\Bolledej.cs" />
+    <Compile Include="WindowsFormsApplication1\BolleHeaven.cs" />
+    <Compile Include="WindowsFormsApplication1\Bollemælk.cs" />
+    <Compile Include="WindowsFormsApplication1\Bongo.cs" />
+    <Compile Include="WindowsFormsApplication1\Børneleg.cs" />
+    <Compile Include="WindowsFormsApplication1\Børnetid.cs" />
+    <Compile Include="WindowsFormsApplication1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsFormsApplication1\ImageClass.cs" />
+    <Compile Include="WindowsFormsApplication1\Jango.cs" />
+    <Compile Include="WindowsFormsApplication1\Jingo.cs" />
+    <Compile Include="WindowsFormsApplication1\Jonga.cs" />
+    <Compile Include="WindowsFormsApplication1\Jongo.cs" />
+    <Compile Include="WindowsFormsApplication1\JoyRomeo.cs" />
+    <Compile Include="WindowsFormsApplication1\Juklas.cs" />
+    <Compile Include="WindowsFormsApplication1\Lingo.cs" />
+    <Compile Include="WindowsFormsApplication1\Mood.cs" />
+    <Compile Include="WindowsFormsApplication1\Movement.cs" />
+    <Compile Include="WindowsFormsApplication1\PlotCourse.cs" />
+    <Compile Include="WindowsFormsApplication1\Program.cs" />
+    <Compile Include="WindowsFormsApplication1\Remember.cs" />
+    <Compile Include="WindowsFormsApplication1\Spaceship1.cs" />
+    <Compile Include="WindowsFormsApplication1\Tegneserie.cs" />
+    <Compile Include="WindowsFormsApplication1\Token.cs" />
+    <Compile Include="WMPLib\IWMPControls.cs" />
+    <Compile Include="WMPLib\IWMPCore.cs" />
+    <Compile Include="WMPLib\IWMPCore2.cs" />
+    <Compile Include="WMPLib\IWMPCore3.cs" />
+    <Compile Include="WMPLib\IWMPPlayer4.cs" />
+    <Compile Include="WMPLib\WindowsMediaPlayer.cs" />
+    <Compile Include="WMPLib\WMPPlayState.cs" />
+    <Compile Include="WMPLib\_WMPOCXEvents.cs" />
+    <Compile Include="WMPLib\_WMPOCXEvents_Event.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WindowsFormsApplication1\Form1.resx" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.2tempo.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.Alien2.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.alieninvader.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.alieninvader2.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.alieninvader3.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.alieninvader4.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.alieninvader5.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.buddy.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.captain.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.Classicrobot.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.eyerobot.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.glyph.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.insect_robot.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.militaryrobot.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.nibble-icon.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.paint.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.PatrolShip.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.peace.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.pig.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.Pill-icon.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.robot.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.robot2.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.satellite.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.Satellite2.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.satellite3.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.satellite4.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.satellite5.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.skullandguns.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.Spaceship.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.SpaceShip2.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.superrobot.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Images.world.png" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Music.Forsaken.mp3" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Music.Icarus.mp3" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Music.JUSTICE.mp3" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Music.mix.mp3" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Music.noisia.mp3" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Music.Octanis.mp3" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Music.Scream.mp3" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Music.Slowly.mp3" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Music.This-Ends-Here.mp3" />
+    <EmbeddedResource Include="WindowsFormsApplication1\Resources.Music.Whiskers.mp3" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
